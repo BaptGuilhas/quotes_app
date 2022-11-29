@@ -1,0 +1,69 @@
+
+#quote-box {
+  background-color: ghostwhite;
+  width : 600px;
+  overflow:hidden;
+  display : block;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+#main {
+  width : 100vw;
+  height : 100vh;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#text {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  font-weight : 500;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#author {
+  text-align: right;
+  font-family:'Times New Roman', Times, serif
+}
+
+#author>p::before {
+  content: '- ';
+}
+#new-quote {
+  border-radius: 3px;
+  border: 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#new-quote:focus {
+  /* width: 223px; */
+  outline: none;
+}
+
+#new-quote:active {
+   transform: translateY(4px);
+}
+
+#icons, #tweet-quote {
+  border-radius: 3px;
+  border: 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 4rem 30% auto;
+  row-gap: 1.5rem;
+  align-items: center;
+
+}
+.divButton {
+  text-align: right;
+}
+
+#author>p {
+  transition: color 3s linear ;
+  /* transition: <property> <duration> <timing-function> <delay>; */
+}
+
+
