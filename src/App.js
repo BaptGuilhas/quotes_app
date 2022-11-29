@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import { Idxer } from './features/idxer/Idxer';
 import './App.css';
 

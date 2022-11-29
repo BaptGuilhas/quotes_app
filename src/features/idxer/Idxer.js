@@ -24,6 +24,7 @@ export function Idxer() {
     };
 
     const h_ref_twitter = "https://twitter.com/intent/tweet?text="+quotesList[idx_value][0]+" - "+quotesList[idx_value][1];
+    const h_ref_insta = "https://www.instagram.com/explore/tags/random/";
 
     const mode = "out-in";
     const [state, setState] = useState(true);
@@ -51,7 +52,7 @@ export function Idxer() {
             </CSSTransition>
           </SwitchTransition>
           <div className="grid">
-            <a id="icons">
+            <a id="icons"  href={h_ref_insta} target="_blank">
               <FaInstagramSquare style={divStyle_color} size={40}/>
             </a>
             <a id="tweet-quote" href={h_ref_twitter} target="_blank">
