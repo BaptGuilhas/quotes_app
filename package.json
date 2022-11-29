@@ -1,7 +1,7 @@
 {
   "name": "quotes_app",
   "version": "0.1.0",
-  "homepage": "https://baptguilhas.github.io/quotes_app",
+  "homepage": "https://baptguilhas.github.io/quotes_app/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
